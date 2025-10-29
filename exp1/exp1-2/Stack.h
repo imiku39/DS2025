@@ -19,7 +19,7 @@ private:
 
 public:
     // 构造函数
-    Stack() : top(nullptr), _size(0) {}
+    Stack() : top(NULL), _size(0) {}
 
     // 析构函数
     ~Stack() {
@@ -30,7 +30,7 @@ public:
 
     // 拷贝构造函数
     Stack(Stack<T> const& s) {
-        top = nullptr;
+        top = NULL;
         _size = 0;
         Node* p = s.top;
 
